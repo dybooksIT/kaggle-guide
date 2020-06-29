@@ -1,13 +1,13 @@
-# 파이썬 개발 환경과 필요한 라이브러리만 설치
-아나콘다는 프로젝트에 필요 없는 파이썬 라이브러리까지 한꺼번에 설치한다는 단점이 있습니다. 만약 여러분에게 꼭 필요한 파이썬 라이브러리만 설치하고 싶다면 이 문서를 참고합니다.
+# 파이썬 개발 환경 설치하기
+이 책에서 캐글 API를 사용하려는 분은 여러분의 컴퓨터에 파이썬 개발 환경을 설치해야 합니다. 여기에서는 파이썬을 처음 사용하는 분에게 필요한 개발 환경 설치 방법을 소개합니다.
 
 ## 윈도우
 
-**01** [파이썬 공식 사이트](https://www.python.org)에 접속합니다. `[Download] > [Download for Windows]`에서 `<Python 3.7.4>`를 선택해 파이썬 개발 환경 설치 파일을 다운로드합니다.
+**01** [파이썬 공식 사이트](https://www.python.org)에 접속합니다. `[Download] > [Download for Windows]`에서 `<Python 3.8.3>`을 선택해 파이썬 개발 환경 설치 파일을 다운로드합니다.
 
 ![001.png](./img/pythoninstall/001.png)
 
-만약 64비트 파이썬 개발 환경 설치 파일을 다운로드하려면 [Python 3.x.x](https://www.python.org/downloads/release/python-3xx/)(현재는 [https://www.python.org/downloads/release/python-374/](https://www.python.org/downloads/release/python-374/))에 접속한 후 맨 아래에 있는  `[Files]` 항목에서 `[Windows x86-64 executable installer]`를 눌러 다운로드합니다.
+만약 64비트 파이썬 개발 환경 설치 파일을 다운로드하려면 **Python 3.x.x**(현재는 [https://www.python.org/downloads/release/python-383](https://www.python.org/downloads/release/python-383))에 접속한 후 맨 아래에 있는  `[Files]` 항목에서 `[Windows x86-64 executable installer]`를 눌러 다운로드합니다.
 
 ![002.png](./img/pythoninstall/002.png)
 
@@ -57,11 +57,11 @@
 
 ## macOS
 
-**01** [파이썬 공식 사이트](https://www.python.org)에 접속합니다. `[Download] > [Download for Windows]`에서 `<Python 3.7.4>`를 선택해 파이썬 개발 환경 설치 파일을 다운로드합니다.
+**01** [파이썬 공식 사이트](https://www.python.org)에 접속합니다. `[Download] > [Download for Windows]`에서 `<Python 3.8.3>`를 선택해 파이썬 개발 환경 설치 파일을 다운로드합니다.
 
 ![009.png](./img/pythoninstall/009.png)
 
-만약 64비트 파이썬 개발 환경 설치 파일을 다운로드하려면 [Python 3.x.x](https://www.python.org/downloads/release/python-3xx/)(현재는 [https://www.python.org/downloads/release/python-374/](https://www.python.org/downloads/release/python-374/))에 접속한 후 맨 아래에 있는  `[Files]` 항목에서 `[macOS 64-bit installer]`를 눌러 다운로드합니다.
+만약 64비트 파이썬 개발 환경 설치 파일을 다운로드하려면 **Python 3.x.x**(현재는 [https://www.python.org/downloads/release/python-383](https://www.python.org/downloads/release/python-383))에 접속한 후 맨 아래에 있는  `[Files]` 항목에서 `[macOS 64-bit installer]`를 눌러 다운로드합니다.
 
 ![010.png](./img/pythoninstall/010.png)
 
@@ -69,7 +69,7 @@
 
 ![011.png](./img/pythoninstall/011.png)
 
-**03** `[읽어보기]`에서는 해당 파이썬 버전을 macOS에 설치할 때 알아야 할 사항을 간략하게 설명합니다. 파이썬 32비트와 64비트 버전의 차이, 보안 인증에 사용하는 OpenSSL 관련 설명, 기타 변경 사항, 파이썬 2.x와 3.x를 동시에 사용하는 방법 등을 소개합니다. 여유 시간이 있다면 읽어보는 것도 좋습니다. 해당 내용을 프린트하려면 `<프린트>` 버튼을 누르고 PDF로 저장하려면 `<저장>` 버튼을 누릅니다. 설치를 계속 진행하려면 `<계속>` 버튼을 누릅니다.
+**03** `[읽어보기]`에서는 해당 파이썬 버전을 macOS에 설치할 때 알아야 할 사항을 간략하게 설명합니다. 보안 인증에 사용하는 OpenSSL 관련 설명, 기타 변경 사항 등을 소개합니다. 여유 시간이 있다면 읽어보는 것도 좋습니다. 해당 내용을 프린트하려면 `<프린트>` 버튼을 누르고 PDF로 저장하려면 `<저장>` 버튼을 누릅니다. 설치를 계속 진행하려면 `<계속>` 버튼을 누릅니다.
 
 ![012.png](./img/pythoninstall/012.png)
 
@@ -81,7 +81,7 @@
 
 ![014.png](./img/pythoninstall/014.png)
 
-**05** `[대상 디스크 선택]`은 건너뛰고 자동으로 현재 사용자의 macOS가 설치된 디스크를 선택합니다. 이어서 `[설치 유형]`으로 이동하면 크게 두 가지 항목에서 설치 옵션을 선택할 수 있습니다.
+**05** `[설치 유형]`으로 이동하면 크게 두 가지 항목에서 설치 옵션을 선택할 수 있습니다.
 
 ![015.png](./img/pythoninstall/015.png)
 
@@ -94,33 +94,29 @@
 * **Shell profile updater**: 셸 도구(macOS라면 기본 도구는 터미널)에서 파이썬 개발 환경을 사용할 수 있도록 합니다. 선택해 설치하는 것을 권합니다.
 * **Install or upgrade pip**: 파이썬 패키지나 라이브러리를 설치하는 도구인 `pip`를 설치하거나 업그레이드합니다. 선택해 설치하는 것을 권합니다.
 
-대상 디스크를 선택하는 **07** 과정을 실행하려면 `<표준 설치>` 버튼을 눌러 **05** 과정으로 돌아갑니다. 현재 macOS가 설치된 디스크에 파이썬을 바로 설치하려면 `<설치>` 버튼을 누릅니다.
+이제 `<표준 설치>` 버튼을 눌러 **05** 과정으로 돌아가거나 현재 화면에서 파이썬을 바로 설치하려면 `<설치>` 버튼을 누릅니다.
 
 ![016.png](./img/pythoninstall/016.png)
 
-**07** 다시 **05** 과정으로 돌아와 `<설치 위치 변경>` 버튼을 누르면 `[대상 디스크 선택]` 항목으로 들어갑니다. 사실 파이썬은 macOS가 설치된 디스크 이외에 다른 디스크에 파이썬을 설치할 수 없으므로 `[대상 디스크 선택]`이 큰 의미가 없습니다. `<계속>` 버튼을 눌러 **05** 과정으로 돌아오면 `<설치>` 버튼을 누릅니다.
+**07** 본격적으로 설치하기 전 "설치 프로그램이(가) 새로운 소프트웨어를 설치하려고 합니다"라는 메시지가 등장합니다. `[사용자 이름]`이 여러분이 로그인한 macOS 사용자 계정 이름인지 확인하고 혹시 아니라면 해당 이름으로 수정합니다. `[암호]`에는 로그인 암호를 입력한 후 `<소프트웨어 설치>` 버튼을 누릅니다.
 
 ![017.png](./img/pythoninstall/017.png)
 
-**08** 본격적으로 설치하기 전 "설치 프로그램이(가) 새로운 소프트웨어를 설치하려고 합니다"라는 메시지가 등장합니다. `[사용자 이름]`이 여러분이 로그인한 macOS 사용자 계정 이름인지 확인하고 혹시 아니라면 해당 이름으로 수정합니다. `[암호]`에는 로그인 암호를 입력한 후 `<소프트웨어 설치>` 버튼을 누릅니다.
+터치바 기반의 맥북 프로를 사용한다면 지문을 입력해서 바로 설치할 수도 있습니다.
 
 ![018.png](./img/pythoninstall/018.png)
 
-터치바 기반의 맥북 프로를 사용한다면 지문을 입력해서 바로 설치할 수도 있습니다.
+**08** `[설치]`에서 파이썬 개발 환경을 설치합니다. 사용자의 컴퓨터 성능에 따라 설치 시간은 차이가 있습니다.
 
 ![019.png](./img/pythoninstall/019.png)
 
-**09** `[설치]`에서 파이썬 개발 환경을 설치합니다. 사용자의 컴퓨터 성능에 따라 설치 시간은 차이가 있습니다.
+**09** 파이썬 개발 환경 설치를 완료했습니다. `<닫기>` 버튼을 눌러 설치를 종료합니다.
 
 ![020.png](./img/pythoninstall/020.png)
 
-**10** 파이썬 개발 환경 설치를 완료했습니다. `<닫기>` 버튼을 눌러 설치를 종료합니다.
-
-![021.png](./img/pythoninstall/021.png)
-
 사용자의 macOS 환경에 따라 다음 그림처럼 파이썬 개발 환경 폴더가 바로 열릴 수도 있습니다.
 
-![022.png](./img/pythoninstall/022.png)
+![021.png](./img/pythoninstall/021.png)
 
 ## 파이썬 가상 환경 만들기
 파이썬은 다양한 라이브러리나 패키지를 사용하므로 필요한 것만 사용하려면 가상 환경을 만드는 것이 좋습니다. 혹시 서로 간섭할 수 있는 라이브러리나 패키지의 영향을 막을 수 있고, 해당 가상 환경만 지우면 언제나 초기 파이썬 개발 환경을 유지할 수 있기 때문입니다.
@@ -161,56 +157,3 @@ $ source ./가상환경디렉터리이름/bin/activate
 ```shell
 $ deactivate
 ```
-
-## 필요한 파이썬 라이브러리와 주피터 노트북 설치하기
-이 책에서 사용하는 파이썬 모듈, 라이브러리는 다음과 같습니다.
-
-* sckit-learn
-* numpy
-* math
-* random
-* collections
-* tensorflow
-* scipy
-* PIL
-
-`math`, `random`, `collections`는 파이썬에서 기본적으로 제공하는 것이고 `numpy`와 `scipy`는 `scikit-learn`을 설치할 때 함께 설치됩니다. 따라서 실제로 설치할 것은 `scikit-learn`, `tensorflow`, `PIL`과 주피터 노트북(`jupyter notebook`)입니다.
-
-**01** 앞에서 소개한 [파이썬 가상 환경 만들기](https://github.com/wizplan/dl_math_book/blob/master/readme/pythoninstall.md#파이썬-가상-환경-만들기)를 참고해 가상 환경에 진입한 후 `cd 가상환경디렉터리이름` 명령을 실행해 가상 환경 디렉터리로 이동합니다.
-
-**02** 다음 명령을 각각 실행해 `scikit-learn`, `tensorflow`, `PIL`, `jupyter notebook`을 설치합니다.
-
-```shell
-$ pip install -U scikit-learn
-
-$ pip install tensorflow
-
-$ pip install jupyter
-
-# PIL 설치
-$ pip install pillow
-```
-
-참고로 윈도우라면 "You are using pip version X.X.X, however version X.X.X is available. You should consider upgrading via the 'python -m pip install --upgrade pip' command."라는 메시지가 등장할 수 있습니다. `pip`를 최신 버전으로 업그레이드하라고 안내하는 것인데 하지 않아도 프로그램 동작엔 문제가 없습니다. 파이썬을 처음 접한다면 업그레이드하지 않을 것을 권합니다. 간혹 업그레이드했다가 파이썬 가상 환경에서 `pip`를 실행하지 못할 수도 있기 때문입니다. 만약 업그레이드했다가 `pip`를 실행하지 못한다면 해당 가상 환경 디렉터리를 삭제한 후 다시 가상 환경 디렉터리를 만들기 바랍니다.
-
-**03** 파이썬 설치한 라이브러리 및 애플리케이션을 목록화해두면 좋습니다. 다음 명령을 실행합니다.
-
-```shell
-$ pip freeze > requirements.txt
-```
-
-requirements.txt를 따로 저장해두면 나중에 해당 파일을 이용해 한꺼번에 라이브러리들을 설치할 수 있습니다. 다음 명령을 실행합니다.
-
-```shell
-$ pip install -r requirements.txt
-```
-
-**04** `cd py` 명령을 실행한 후 `python 예제파일이름.py` 명령을 실행해 각종 예제 파일을 실행할 수 있습니다. 
-
-**05** 가상 환경에서 주피터 노트북을 사용하려면 다음 명령을 실행합니다.
-
-```shell
-$ jupyter notebook
-```
-
-**06** 웹 브라우저에서 실행한 주피터 노트북 페이지에서 jupyter 디렉터리로 이동한 후 '장번호.ipynb'을 열면 이 책의 주피터 노트북 예제 파일을 실행할 수 있습니다.
