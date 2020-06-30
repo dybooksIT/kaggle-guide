@@ -5,7 +5,7 @@
 <img src="./readme/cover.jpg" width="400" height="553">
 
 ## 구매하기
-[교보문고]() | [YES24]() | [알라딘]() | [인터파크]() | [반디앤루니스]()
+[교보문고](https://bit.ly/2Bmiojn) | [YES24](https://bit.ly/38hdsbt) | [알라딘](https://bit.ly/2Zk33rr) | [인터파크](https://bit.ly/2NHnFoo) | [반디앤루니스](https://bit.ly/2CNckkc)
 
 ## 책 소개
 **전 세계 데이터 과학자와 경쟁하면서 실력을 키우는 플랫폼 캐글!**  
